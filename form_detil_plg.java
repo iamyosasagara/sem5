@@ -32,6 +32,8 @@ public final class form_detil_plg extends javax.swing.JFrame {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
     }
+    
+    // yang error di sini mas arip
     public void tampil_combo(){
         try {
         String sql = "SELECT kd_plg FROM tb_pelanggan ORDER BY kd_plg ASC";      // disini saya menampilkan NIM, anda dapat menampilkan
